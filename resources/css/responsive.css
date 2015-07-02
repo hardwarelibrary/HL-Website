@@ -1,0 +1,81 @@
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	h2 {
+		font-size: 36px;
+	}
+
+	.navbar-nav>li>a {
+		border-bottom: none;
+	}
+
+	.about-inner {
+		padding: 0;
+	}
+
+	.benefits-image {
+		padding: 60px 20px 0px;
+	}
+
+	.details-image {
+		margin-top: 70px;
+	}
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+	.hero-content {
+		text-align: left;
+	}
+
+	.hero-buttons a {
+		margin-right: 10px;
+	}
+
+	.hero-mockup {
+		visibility: visible;
+		width: 40%;
+		margin-right: 40px;
+	}
+
+	.benefits {
+        margin-top: 17px;
+
+     }
+
+	.benefits-image {
+		padding: 40px 20px 0px;
+	}
+
+	.details-image {
+		margin-top: 0;
+	}
+ }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+	h1, .h1 {
+		font-size: 54px;
+	}
+
+	.hero-bottom {
+		width: 38%;
+		margin-right: 40px;
+	}
+
+	.benefits {
+        margin-top: 42px;
+     }
+
+	.benefits-image {
+		padding-top: 0;
+	}
+
+	.details-content {
+		padding-top: 30px;
+	}
+ }
