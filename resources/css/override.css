@@ -47,3 +47,8 @@ section, footer {
 .hero-buttons {
 	margin-top: 85px;
 }
+.navbar {
+	border: none;
+	border-radius: 0;
+	box-shadow: 0 5px rgba(0,0,0,0.1);
+}
