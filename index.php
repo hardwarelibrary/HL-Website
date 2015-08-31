@@ -1,104 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-	<!-- Basic page information -->
-	<meta name="description" content="Krait - Responsive Landing Page">
-	<meta name="keywords" content="bootstrap, mobile app, responsive, CSS3, html5, landing page, android, iOS">
-	<meta name="author" content="Clas-design">
-	<title>Hardware Library</title>
-	
-	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="magnific-popup/magnific-popup.css"> 
-	
-	<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
-
-	<!-- Magnific Popup core JS file -->
-	<script src="magnific-popup/jquery.magnific-popup.js"></script>
-
-	<!-- Fav Icon -->
-	<link rel="shortcut icon" href="resources/images/favicon.ico">
-	
-	<!-- Custom Google fonts -->
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet" type="text/css">
-
-	<!-- Bootstrap CSS Style -->
-	<link rel="stylesheet" href="resources/css/bootstrap/css/bootstrap.min.css">
-
-	<!-- Template CSS Style -->
-	<link rel="stylesheet" href="resources/css/style.css">
-	<link rel="stylesheet" href="resources/css/responsive.css">
-
-	<!-- Animate CSS  -->
-	<link rel="stylesheet" href="resources/css/animate.css">
-
-	<!-- Pixeden Stroke Font Icons -->
-	<link rel="stylesheet" href="resources/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-
-	<!-- FontAwesome 4.3.0 Icons  -->
-	<link rel="stylesheet" href="resources/css/fontawesome/css/font-awesome.min.css">
-
-	<!-- Magnific Popup CSS Style -->
-	<link rel="stylesheet" href="resources/css/magnific-popup/magnific-popup.css">
-
-	<!-- Owl Carousel CSS Style -->
-	<link rel="stylesheet" href="resources/css/owl.carousel/owl.carousel.css">
-	<link rel="stylesheet" href="resources/css/owl.carousel/owl.theme.css">
-	<link rel="stylesheet" href="resources/css/owl.carousel/owl.transitions.css">
-
-	<!-- Override CSS file -->
-	<link rel="stylesheet" href="resources/css/override.css"> 
-
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-<body>
-
-	<!-- Preload the Whole Page -->
-	<div id="preloader">
-		<div class="battery inner">
-			<div class="load-line"></div>
-		</div>
-	</div>
-
-	<div id="wrapper">
-		
-		<!-- Header -->
-		<header class="header">
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-nav">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#"><img src="resources/images/logo1.png" alt="Logo"></a>
-					</div>
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="navigation-nav">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#wrapper">Home</a></li>
-							<li><a href="#inventory-section">Inventory</a></li>
-							<li><a href="#membership-section">Members</a></li>
-							<li><a href="#Events-section">Events</a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container -->
-			</nav>
-		</header>
-		<!-- end header -->
+<?php
+	require('includes/site_header.php');
+?>
 
 		<!-- Hero Section -->
 		<section class="hero-header"> 
@@ -114,9 +16,9 @@
 								</div> <!-- end hero-title -->
 
 								<div class="hero-buttons">
-                  				  <a href="http://clas-design.com/sites/krait/demo/light/index.html#inventory-section" class="btn btn-lg clean-button">Check something out!</a>
-                  				  <a href="http://clas-design.com/sites/krait/demo/light/index.html#members-section" class="btn btn-lg clean-button"></i>Become a member!</a>
-                  				  <a href="http://clas-design.com/sites/krait/demo/light/index.html#events-section" class="btn btn-lg clean-button"></i>Have an event!</a>
+                  				  <a href="<?php echo _SITE_ADDRESS ?>#inventory-section" class="btn btn-lg clean-button">Borrow Some Hardware!</a>
+                  				  <a href="<?php echo _SITE_ADDRESS ?>#members-section" class="btn btn-lg clean-button"></i>Become a member!</a>
+                  				  <a href="<?php echo _SITE_ADDRESS ?>#video-section" class="btn btn-lg clean-button"></i>Have an event!</a>
                 			  </div> <!-- end hero-buttons -->
 							</div> <!-- end col-md-8 -->
 
@@ -141,7 +43,7 @@
 								</div> <!-- end title -->
 								<p>Whether it's virtual reality gadgets you want to try, laptops you need for a weekend, gaming consoles so you can play the latest game, or hardware you want to build around, this is just a glimpse of what we have in store:</p>
 									<p>- Apple Watch</p>
-									<p>- Oculus Rift CV1</p>
+									<p>- Oculus Rift</p>
 									<p>- Playstation 4</p>
 									<p>- XBox One</p>
 									<p>- Macbook Air 3</p>
@@ -150,14 +52,14 @@
 									<p>- Arduino Motherboard</p>
 									<p>- AND MORE!</p>
 								<div class="buttons">
-									<a href="" class="btn btn-default btn-lg standard-button">See What Else We Have!</a>
+									<a href="<?php echo _SITE_ADDRESS ?>inventory.php" class="btn btn-default btn-lg standard-button">See What Else We Have!</a>
 								</div>
 							</div> <!-- end details-content -->
 						</div> <!-- end col-md-6 -->
 
 						<div class="col-md-5 col-md-offset-1 hidden-xs">
 							<div class="details-image animated out" data-animation="fadeInRight" data-delay="0">
-								<img src="resources/images/temp/why-us.png" alt="">
+								<img src="<?php echo _SITE_ADDRESS ?>resources/images/temp/inventory-default.png" alt="">
 							</div> <!-- end details-image -->
 						</div> <!-- end col-md-6 -->
 					</div> <!-- end row -->
@@ -314,6 +216,15 @@
 										<p>For the first month of availability, only members will get access to rent the latest gadget. This means no wait times and more time for you!</p>
 									</div> <!-- end features-text -->
 								</li>
+                                
+                                <li class="animated out" data-animation="fadeInRight" data-delay="0">
+									
+									<div class="features-text">
+										<div class="buttons">
+									<a href="<?php echo _SITE_ADDRESS ?>members.php" class="btn btn-default btn-lg standard-button">Join us now!</a>
+								</div>
+									</div> <!-- end features-text -->
+								</li>
 
 							</ul>
 						</div> <!-- end col-md-6 -->
@@ -397,14 +308,7 @@
 
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
-							
-							
-							
-							
-							
-							
-							
-							
+						
 							
 							<div class="title-section animated out" data-animation="fadeInUp" data-delay="0">
 								<h2>Hosting an Event or Hackathon?</h2>
@@ -441,18 +345,24 @@
 									</div> <!-- end features-text -->
 								</li>
 								
-								<p>Watch this awesome video we made and now you are going to watch.</p>
+                                <br>
+
+									<div class="">
+										<div class="buttons">
+                                            <a href="<?php echo _SITE_ADDRESS ?>events.php" class="btn btn-default btn-lg standard-button">Have an Event</a>
+								</div>
+									</div> <!-- end features-text -->
 							</div> <!-- end title -->
 						</div> <!-- end col-md-6 -->
 					</div> <!-- end row -->
 
-					<div class="row">
+					<!--<div class="row">
 						<div class="col-md-10 col-md-offset-1">
 							<div class="video-container animated out" data-animation="fadeInUp" data-delay="0">
 								<iframe src="http://player.vimeo.com/video/79876010?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="1000" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 							</div> <!-- end video-container -->
 						</div> <!-- end col-md-10 -->
-					</div> <!-- end row -->
+					</div>--> <!-- end row -->
 
 				</div> <!-- end container -->
 			</div>
@@ -477,24 +387,22 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
 
-							<form class="subscription-form mailchimp" id="subscribeform">
-
-								<!-- Subscription messages -->
-								<h4 class="subscription-success"></h4>
-								<h4 class="subscription-error"></h4>
-
-								<div class="input-group animated out" data-animation="fadeInLeft" data-delay="0">
+							<form id="signup" method="post">
+								<div class="input-group " >
 									
 									<!-- Email input -->
-									<input type="email" class="form-control" name="email" id="subscriber-email" placeholder="Email adress...">
+									<input type="email" class="form-control" name="email"  id="email" placeholder="Email adress...">
 									
 									<!-- Subscribe button -->
 									<span class="input-group-btn">
-										<button class="btn btn-md standard-button" id="subscribe-button" type="submit">Go!</button>
+										<button class="btn btn-md standard-button" id="submit" type="button">Go!</button>
 									</span>
+                                     
 
 								</div><!-- /input-group -->
+                                <br />
 
+<center> <p class="alert alert-danger" id="msg"></p></center>
 							</form>
 
 						</div> <!-- end col-md-6 -->
@@ -505,53 +413,73 @@
 		</section>
 		<!-- End subscribe-section -->
 
-		<!-- Footer -->
-		<footer>
-			<div id="footer-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							
-							<ul class="social-icons-list">
-								<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
-								<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-							</ul>
 
-							<p>Krait &copy; 2015 by <a href="#">Clas-Design</a>. All Rights Reserved</p>
-						</div> <!-- end col-md-8 -->
-					</div> <!-- end row -->
-				</div> <!-- end container -->
-			</div> <!-- end footer-section -->
-		</footer>
-		<!-- End footer -->
-
-	</div>
-	<!-- End wrapper -->
-
-    <!-- Back-to-top
-    ================================================== -->
-    <div class="back-to-top">
-    	<i class="fa fa-angle-up fa-3x"></i>
-    </div> <!-- end back-to-top -->
+<?php
+	require('includes/site_footer.php');
+?>
 
 
-    <!-- JS libraries and scripts -->
-    <script src="resources/js/jquery-1.11.2.min.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>
-    <script src="resources/js/jquery.appear.min.js"></script>
-    <script src="resources/js/jquery.countTo.js"></script>
-    <script src="resources/js/jquery.waypoints.js"></script>
-    <script src="resources/js/jquery.smoothscroll.js"></script>
-    <script src="resources/js/jquery.stellar.min.js"></script>
-    <script src="resources/js/jquery.fitvids.js"></script>
-    <script src="resources/js/jquery.owl.carousel.min.js"></script>
-    <script src="resources/js/jquery.magnific-popup.min.js"></script>
-    <script src="resources/js/jquery.placeholder.js"></script>
-    <script src="resources/js/jquery.ajaxchimp.min.js"></script>
-    <script src="resources/js/main.js"></script>
+<script>
+	jQuery(document).ready(function(){
+		jQuery(document).on("click","#submit",function(){
+			var $email  = jQuery("#email").val();	
+			if($email==''){
+				jQuery("#msg").html("<p id='msg2'>Please enter your email address</p>");	
+				return false;
+			}else{
+				jQuery("#msg").html();	
+			}
+			
+			if( !validateEmail($email)) { 
+				jQuery("#msg").html("<p id='msg2'>Please enter a valid email address</p>");	
+				return false;
+			 }
+			
+			$.ajax({
+					type : "POST",
+					data : "email="+$email+"&type=order",
+					url :  "<?php echo _SITE_ADDRESS ?>order.php",
+					beforeSend: function(){
+						jQuery("#msg").html("<img src='<?php echo _SITE_ADDRESS ?>resources/images/loader.gif'>");
+					},
+					success : function(r){
+						jQuery("#signup")[0].reset();
 
-</body>
-</html>
+
+
+
+
+ $.ajax({
+	                url: "https://docs.google.com/forms/d/1O3jGrUemXQ_5JHINzQOiiqDAP1P-q0TRFFuD3uwUQXs/formResponse",
+                  data: {"entry.800015304":$email} ,
+                  type: "POST",
+                    dataType: "xml",
+                    statusCode: {
+                        0: function () {
+                            return true;
+                        },
+                        200: function () {
+                             
+                      
+						   return true;
+						   
+                        }
+                    }
+	  });
+
+
+
+						jQuery("#msg").html("<p id='msg3'>Thank you for joining out mailing list! We will let you know as soon as we are up and running!</p>");	
+					}
+				});
+			
+		});
+	});
+	
+	
+	function validateEmail($email) {
+	  var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+	  return emailReg.test( $email );
+	}
+
+</script>
