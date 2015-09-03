@@ -25,37 +25,37 @@
 
 
 	<!-- Fav Icon -->
-	<link rel="shortcut icon" href="<?php echo _SITE_ADDRESS ?>resources/images/favicon.ico">
+	<link rel="shortcut icon" href="resources/images/favicon.ico">
 	
 	<!-- Custom Google fonts -->
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet" type="text/css">
 
 	<!-- Bootstrap CSS Style -->
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="resources/css/bootstrap/css/bootstrap.min.css">
 
 	<!-- Template CSS Style -->
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/style.css">
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/responsive.css">
+	<link rel="stylesheet" href="resources/css/style.css">
+	<link rel="stylesheet" href="resources/css/responsive.css">
 
 	<!-- Animate CSS  -->
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/animate.css">
+	<link rel="stylesheet" href="resources/css/animate.css">
 
 	<!-- Pixeden Stroke Font Icons -->
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+	<link rel="stylesheet" href="resources/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
 
 	<!-- FontAwesome 4.3.0 Icons  -->
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/fontawesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="resources/css/fontawesome/css/font-awesome.min.css">
 
 	<!-- Magnific Popup CSS Style -->
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/magnific-popup/magnific-popup.css">
+	<link rel="stylesheet" href="resources/css/magnific-popup/magnific-popup.css">
 
 	<!-- Owl Carousel CSS Style -->
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/owl.carousel/owl.carousel.css">
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/owl.carousel/owl.theme.css">
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/owl.carousel/owl.transitions.css">
+	<link rel="stylesheet" href="resources/css/owl.carousel/owl.carousel.css">
+	<link rel="stylesheet" href="resources/css/owl.carousel/owl.theme.css">
+	<link rel="stylesheet" href="resources/css/owl.carousel/owl.transitions.css">
 
 	<!-- Override CSS file -->
-	<link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/override.css"> 
+	<link rel="stylesheet" href="resources/css/override.css"> 
 
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
