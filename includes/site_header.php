@@ -64,6 +64,7 @@
     <![endif]-->
 
 </head>
+
 <body>
 <?php
 		if(basename($_SERVER['PHP_SELF'],".php")=='index'){
@@ -74,9 +75,7 @@
 			<div class="load-line"></div>
 		</div>
 	</div>
-<?php
-		}
-?>
+
 	<div id="wrapper ">
 		
 		<!-- Header -->
@@ -88,3 +87,4 @@
             
 		</header>
 		<!-- end header -->
+	</div>

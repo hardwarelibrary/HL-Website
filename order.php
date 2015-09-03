@@ -2,14 +2,12 @@
 if(isset($_REQUEST['type']) and $_REQUEST['type']=='order'){
 		extract($_REQUEST);
 		
-		
 		$to = ADMIN_EMAIL;
 
 $subject = 'New Borrow Request Generated: '.date("d M Y");
 
 $headers = "From: server@xearntechnology.com\r\n";
 $headers .= "Reply-To: server@xearntechnology.com\r\n";
-//$headers .= "CC: susan@example.com\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
@@ -63,8 +61,9 @@ $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 							<div class="title ">
 								
 								<div class="order-block">
-                                	<p class="lh">We're not renting out hardware just yet. But sign up below and we'll let you know when we're up and running!
-</p>
+                                	<p class="lh">
+                                	We're not renting out hardware to consumers just yet. 
+                                	Sign up below and we'll let you know when we're up and running!</p>
                                 </div>
                                
 							</div> <!-- end title -->
@@ -129,8 +128,6 @@ $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 			</div>
 		</section>
 	
-    
-    
 <?php
 	require('includes/site_footer.php');
 ?>

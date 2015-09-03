@@ -16,9 +16,9 @@
 								</div> <!-- end hero-title -->
 
 								<div class="hero-buttons">
-                  				  <a href="<?php echo _SITE_ADDRESS ?>#inventory-section" class="btn btn-lg clean-button">Borrow Some Hardware!</a>
-                  				  <a href="<?php echo _SITE_ADDRESS ?>#members-section" class="btn btn-lg clean-button"></i>Become a member!</a>
-                  				  <a href="<?php echo _SITE_ADDRESS ?>#video-section" class="btn btn-lg clean-button"></i>Have an event!</a>
+                  				  <a href="#inventory-section" class="btn btn-lg clean-button">Borrow Some Hardware!</a>
+                  				  <a href="#members-section" class="btn btn-lg clean-button"></i>Become a member!</a>
+                  				  <a href="#video-section" class="btn btn-lg clean-button"></i>Have an event!</a>
                 			  </div> <!-- end hero-buttons -->
 							</div> <!-- end col-md-8 -->
 
@@ -52,14 +52,14 @@
 									<p>- Arduino Motherboard</p>
 									<p>- AND MORE!</p>
 								<div class="buttons">
-									<a href="<?php echo _SITE_ADDRESS ?>inventory.php" class="btn btn-default btn-lg standard-button">See What Else We Have!</a>
+									<a href="inventory.php" class="btn btn-default btn-lg standard-button">See What Else We Have!</a>
 								</div>
 							</div> <!-- end details-content -->
 						</div> <!-- end col-md-6 -->
 
 						<div class="col-md-5 col-md-offset-1 hidden-xs">
 							<div class="details-image animated out" data-animation="fadeInRight" data-delay="0">
-								<img src="<?php echo _SITE_ADDRESS ?>resources/images/temp/inventory-default.png" alt="">
+								<img src="resources/images/temp/inventory-default.png" alt="">
 							</div> <!-- end details-image -->
 						</div> <!-- end col-md-6 -->
 					</div> <!-- end row -->
@@ -221,7 +221,7 @@
 									
 									<div class="features-text">
 										<div class="buttons">
-									<a href="<?php echo _SITE_ADDRESS ?>members.php" class="btn btn-default btn-lg standard-button">Join us now!</a>
+									<a href="members.php" class="btn btn-default btn-lg standard-button">Join us now!</a>
 								</div>
 									</div> <!-- end features-text -->
 								</li>
@@ -346,7 +346,7 @@
 
 									<div class="">
 										<div class="buttons">
-                                            <a href="<?php echo _SITE_ADDRESS ?>events.php" class="btn btn-default btn-lg standard-button">Have an Event</a>
+                                            <a href="events.php" class="btn btn-default btn-lg standard-button">Have an Event</a>
 										</div>
 									</div> <!-- end features-text -->
 							</div> <!-- end title -->
@@ -428,9 +428,9 @@
 			$.ajax({
 					type : "POST",
 					data : "email="+$email+"&type=order",
-					url :  "<?php echo _SITE_ADDRESS ?>order.php",
+					url :  "order.php",
 					beforeSend: function(){
-						jQuery("#msg").html("<img src='<?php echo _SITE_ADDRESS ?>resources/images/loader.gif'>");
+						jQuery("#msg").html("<img src='resources/images/loader.gif'>");
 					},
 					success : function(r){
 						jQuery("#signup")[0].reset();

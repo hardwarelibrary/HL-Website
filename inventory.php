@@ -1,8 +1,8 @@
 <?php
 	include("includes/site_header.php");
 ?>
- <link rel="stylesheet" href="<?php echo _SITE_ADDRESS ?>resources/css/colorbox.css"> 
- <link href="<?php echo _SITE_ADDRESS ?>resources/css/ihover.css" rel="stylesheet">
+ <link rel="stylesheet" href="resources/css/colorbox.css"> 
+ <link href="resources/css/ihover.css" rel="stylesheet">
 
  
  
@@ -329,7 +329,7 @@
                             <div id="product_price"></div>
                             <div id="product_select">Select QTY: </div>
                             <div id="product_qty"></div>
-                            <div><input type="button" class="btn btn-danger orange" value="Borrow" onClick="location.href='<?php echo _SITE_ADDRESS ?>order.php'"></div>
+                            <div><input type="button" class="btn btn-danger orange" value="Borrow" onClick="location.href='order.php'"></div>
                             
                         </div>
                     </div>

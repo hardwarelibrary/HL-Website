@@ -32,24 +32,21 @@
 
 
     <!-- JS libraries and scripts -->
-    <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery-1.11.2.min.js"></script>
-    <script src="<?php echo _SITE_ADDRESS ?>resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/jquery-1.11.2.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
     
     <?php
 		if(basename($_SERVER['PHP_SELF'],".php")=='index'){
 	?>
   
-		<script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.appear.min.js"></script>
-        <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.countTo.js"></script>
-        <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.waypoints.js"></script>
-        <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.smoothscroll.js"></script>
-        <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.stellar.min.js"></script>
-        <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.fitvids.js"></script>
-        <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.owl.carousel.min.js"></script>
-        <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.magnific-popup.min.js"></script>
-        <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.placeholder.js"></script>
-        <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.ajaxchimp.min.js"></script>
-        <script src="<?php echo _SITE_ADDRESS ?>resources/js/main.js"></script>
-	
-</body>
-</html>
+		<script src="resources/js/jquery.appear.min.js"></script>
+        <script src="resources/js/jquery.countTo.js"></script>
+        <script src="resources/js/jquery.waypoints.js"></script>
+        <script src="resources/js/jquery.smoothscroll.js"></script>
+        <script src="resources/js/jquery.stellar.min.js"></script>
+        <script src="resources/js/jquery.fitvids.js"></script>
+        <script src="resources/js/jquery.owl.carousel.min.js"></script>
+        <script src="resources/js/jquery.magnific-popup.min.js"></script>
+        <script src="resources/js/jquery.placeholder.js"></script>
+        <script src="resources/js/jquery.ajaxchimp.min.js"></script>
+        <script src="resources/js/main.js"></script>

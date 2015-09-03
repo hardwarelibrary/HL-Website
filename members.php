@@ -8,7 +8,7 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-1">
 							<div class="title ">
-								<h2><a href='<?php echo _SITE_ADDRESS ?>order.php'>Become a Member</a></h2>
+								<h2><a href='order.php'>Become a Member</a></h2>
 								<p>Members enjoy unique benefits when renting and have unparralelled access to our hardware. By paying a flat monthly rate, here are just some of the perks:</p>
 							</div> <!-- end title -->
 
@@ -59,7 +59,7 @@
                         
 						<div class="col-md-5">
 							<div class="features-2-image " >
-								<a href="<?php echo _SITE_ADDRESS ?>order.php"><img src="http://placehold.it/457x580&text=Become+a+Member" alt=""></a>
+								<a href="order.php"><img src="http://placehold.it/457x580&text=Become+a+Member" alt=""></a>
 							</div> <!-- end features-image -->
 						</div> <!-- end col-md-5 -->
 
