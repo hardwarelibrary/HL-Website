@@ -309,7 +309,6 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
 						
-							
 							<div class="title-section animated out" data-animation="fadeInUp" data-delay="0">
 								<h2>Hosting an Event or Hackathon?</h2>
 								<h3>We love helping make your event the best it can be!</h3>
@@ -344,25 +343,16 @@
 										<p>You're company/organization works to help others? We'll we'd like to help you. We work with non-profits to maximize their return and minimize their costs.</p>
 									</div> <!-- end features-text -->
 								</li>
-								
-                                <br>
 
 									<div class="">
 										<div class="buttons">
                                             <a href="<?php echo _SITE_ADDRESS ?>events.php" class="btn btn-default btn-lg standard-button">Have an Event</a>
-								</div>
+										</div>
 									</div> <!-- end features-text -->
 							</div> <!-- end title -->
 						</div> <!-- end col-md-6 -->
 					</div> <!-- end row -->
 
-					<!--<div class="row">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="video-container animated out" data-animation="fadeInUp" data-delay="0">
-								<iframe src="http://player.vimeo.com/video/79876010?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="1000" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-							</div> <!-- end video-container -->
-						</div> <!-- end col-md-10 -->
-					</div>--> <!-- end row -->
 
 				</div> <!-- end container -->
 			</div>
@@ -378,7 +368,8 @@
 						<div class="col-md-6 col-md-offset-3">
 							<div class="title-section animated out" data-animation="fadeInUp" data-delay="0">
 								<h2>Interested?</h2>
-								<p>We're in the Dallas-Fort Worth area. We'll be delivering directly to you soon!</p>
+								<p>We're in the Dallas-Fort Worth area. Currently, we service events. Get in touch and we'll answer
+								you within 48 hours. For consumers, we'll be delivering directly to you soon!</p>
 								<p>Be the first to know.</p>
 							</div> <!-- end title -->
 						</div> <!-- end col-md-6 -->
@@ -398,11 +389,10 @@
 										<button class="btn btn-md standard-button" id="submit" type="button">Go!</button>
 									</span>
                                      
-
 								</div><!-- /input-group -->
                                 <br />
 
-<center> <p class="alert alert-danger" id="msg"></p></center>
+								<center> <p class="alert alert-danger" id="msg"></p></center>
 							</form>
 
 						</div> <!-- end col-md-6 -->
@@ -444,10 +434,6 @@
 					},
 					success : function(r){
 						jQuery("#signup")[0].reset();
-
-
-
-
 
  $.ajax({
 	                url: "https://docs.google.com/forms/d/1O3jGrUemXQ_5JHINzQOiiqDAP1P-q0TRFFuD3uwUQXs/formResponse",
