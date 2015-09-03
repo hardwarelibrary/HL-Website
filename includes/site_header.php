@@ -66,7 +66,7 @@
 </head>
 
 <body>
-<?php
+	<?php
 		if(basename($_SERVER['PHP_SELF'],".php")=='index'){
 	?>
 	<!-- Preload the Whole Page -->
@@ -75,6 +75,10 @@
 			<div class="load-line"></div>
 		</div>
 	</div>
+
+	<?php
+		}
+	?>
 
 	<div id="wrapper ">
 		
@@ -87,4 +91,3 @@
             
 		</header>
 		<!-- end header -->
-	</div>

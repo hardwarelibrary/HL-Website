@@ -36,7 +36,7 @@
     <script src="resources/js/bootstrap.min.js"></script>
     
     <?php
-		if(basename($_SERVER['PHP_SELF'],".php")=='index'){
+		if(basename($_SERVER['PHP_SELF'],".php")=='index'); {
 	?>
   
 		<script src="resources/js/jquery.appear.min.js"></script>
@@ -50,3 +50,7 @@
         <script src="resources/js/jquery.placeholder.js"></script>
         <script src="resources/js/jquery.ajaxchimp.min.js"></script>
         <script src="resources/js/main.js"></script>
+
+    <?php
+		}
+	?>

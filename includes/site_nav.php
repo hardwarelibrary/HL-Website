@@ -8,16 +8,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo _SITE_ADDRESS ?>"><img src="<?php echo _SITE_ADDRESS ?>resources/images/logo.png" alt="Logo" ></a>
+            <a class="navbar-brand" href=""><img src="resources/images/logo.png" alt="Logo" ></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navigation-nav">
             <ul class="nav navbar-nav navbar-right">
-                <li <?php if(basename($_SERVER['PHP_SELF'],".php")=='index'){ echo "class='active'"; } ?>><a href="<?php echo _SITE_ADDRESS ?>">Home</a></li>
-                <li <?php if(basename($_SERVER['PHP_SELF'],".php")=='inventory'){ echo "class='active'"; } ?>><a href="<?php echo _SITE_ADDRESS ?>inventory.php">Inventory</a></li>
-                <li <?php if(basename($_SERVER['PHP_SELF'],".php")=='members'){ echo "class='active'"; } ?>><a href="<?php echo _SITE_ADDRESS ?>members.php">Members</a></li>
-                <li <?php if(basename($_SERVER['PHP_SELF'],".php")=='events'){ echo "class='active'"; } ?>><a href="<?php echo _SITE_ADDRESS ?>events.php">Events</a></li>
-                <li <?php if(basename($_SERVER['PHP_SELF'],".php")=='about-us'){ echo "class='active'"; } ?>><a href="<?php echo _SITE_ADDRESS ?>about-us.php">About Us</a></li>
+                <li <?php if(basename($_SERVER['PHP_SELF'],".php")=='index'){ echo "class='active'"; } ?>><a href="">Home</a></li>
+                <li <?php if(basename($_SERVER['PHP_SELF'],".php")=='inventory'){ echo "class='active'"; } ?>><a href="inventory.php">Inventory</a></li>
+                <li <?php if(basename($_SERVER['PHP_SELF'],".php")=='members'){ echo "class='active'"; } ?>><a href="members.php">Members</a></li>
+                <li <?php if(basename($_SERVER['PHP_SELF'],".php")=='events'){ echo "class='active'"; } ?>><a href="events.php">Events</a></li>
+                <li <?php if(basename($_SERVER['PHP_SELF'],".php")=='about-us'){ echo "class='active'"; } ?>><a href="about-us.php">About Us</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
