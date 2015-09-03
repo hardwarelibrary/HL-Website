@@ -13,7 +13,7 @@
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
 							</ul>
 
-							<p>Krait &copy; 2015 by <a href="#">Clas-Design</a>. All Rights Reserved</p>
+							<p>Hardware Library &copy; 2015. All Rights Reserved</p>
 						</div> <!-- end col-md-8 -->
 					</div> <!-- end row -->
 				</div> <!-- end container -->
@@ -51,8 +51,5 @@
         <script src="<?php echo _SITE_ADDRESS ?>resources/js/jquery.ajaxchimp.min.js"></script>
         <script src="<?php echo _SITE_ADDRESS ?>resources/js/main.js"></script>
 	
-    <?php
-		}
-	?>
 </body>
 </html>
