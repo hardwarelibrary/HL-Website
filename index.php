@@ -309,6 +309,7 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
 						
+							
 							<div class="title-section animated out" data-animation="fadeInUp" data-delay="0">
 								<h2>Hosting an Event or Hackathon?</h2>
 								<h3>We love helping make your event the best it can be!</h3>
@@ -343,16 +344,26 @@
 										<p>You're company/organization works to help others? We'll we'd like to help you. We work with non-profits to maximize their return and minimize their costs.</p>
 									</div> <!-- end features-text -->
 								</li>
+								
+                                <br>
 
 									<div class="">
 										<div class="buttons">
                                             <a href="events.php" class="btn btn-default btn-lg standard-button">Have an Event</a>
-										</div>
+								</div>
 									</div> <!-- end features-text -->
 							</div> <!-- end title -->
 						</div> <!-- end col-md-6 -->
 					</div> <!-- end row -->
 
+					<!-- Video comment out -->
+					<!--<div class="row">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="video-container animated out" data-animation="fadeInUp" data-delay="0">
+								<iframe src="http://player.vimeo.com/video/79876010?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="1000" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							</div> //end video-container -->
+						<!--</div> //end col-md-10 -->
+					<!--</div>--> <!-- end row -->
 
 				</div> <!-- end container -->
 			</div>
@@ -368,8 +379,7 @@
 						<div class="col-md-6 col-md-offset-3">
 							<div class="title-section animated out" data-animation="fadeInUp" data-delay="0">
 								<h2>Interested?</h2>
-								<p>We're in the Dallas-Fort Worth area. Currently, we service events. Get in touch and we'll answer
-								you within 48 hours. For consumers, we'll be delivering directly to you soon!</p>
+								<p>We're in the Dallas-Fort Worth area. We'll be delivering directly to you soon!</p>
 								<p>Be the first to know.</p>
 							</div> <!-- end title -->
 						</div> <!-- end col-md-6 -->
@@ -389,6 +399,7 @@
 										<button class="btn btn-md standard-button" id="submit" type="button">Go!</button>
 									</span>
                                      
+
 								</div><!-- /input-group -->
                                 <br />
 
@@ -408,64 +419,4 @@
 	require('includes/site_footer.php');
 ?>
 
-
-<script>
-	jQuery(document).ready(function(){
-		jQuery(document).on("click","#submit",function(){
-			var $email  = jQuery("#email").val();	
-			if($email==''){
-				jQuery("#msg").html("<p id='msg2'>Please enter your email address</p>");	
-				return false;
-			}else{
-				jQuery("#msg").html();	
-			}
-			
-			if( !validateEmail($email)) { 
-				jQuery("#msg").html("<p id='msg2'>Please enter a valid email address</p>");	
-				return false;
-			 }
-			
-			$.ajax({
-					type : "POST",
-					data : "email="+$email+"&type=order",
-					url :  "order.php",
-					beforeSend: function(){
-						jQuery("#msg").html("<img src='resources/images/loader.gif'>");
-					},
-					success : function(r){
-						jQuery("#signup")[0].reset();
-
- $.ajax({
-	                url: "https://docs.google.com/forms/d/1O3jGrUemXQ_5JHINzQOiiqDAP1P-q0TRFFuD3uwUQXs/formResponse",
-                  data: {"entry.800015304":$email} ,
-                  type: "POST",
-                    dataType: "xml",
-                    statusCode: {
-                        0: function () {
-                            return true;
-                        },
-                        200: function () {
-                             
-                      
-						   return true;
-						   
-                        }
-                    }
-	  });
-
-
-
-						jQuery("#msg").html("<p id='msg3'>Thank you for joining out mailing list! We will let you know as soon as we are up and running!</p>");	
-					}
-				});
-			
-		});
-	});
-	
-	
-	function validateEmail($email) {
-	  var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-	  return emailReg.test( $email );
-	}
-
-</script>
+<script type="text/javascript" src="resources/js/email.js"></script>

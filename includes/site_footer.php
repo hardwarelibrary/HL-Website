@@ -13,7 +13,7 @@
 								<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
 							</ul>
 
-							<p>Hardware Library &copy; 2015. All Rights Reserved</p>
+							<p>Hardware Library &copy; 2015 by. All Rights Reserved</p>
 						</div> <!-- end col-md-8 -->
 					</div> <!-- end row -->
 				</div> <!-- end container -->
@@ -36,7 +36,7 @@
     <script src="resources/js/bootstrap.min.js"></script>
     
     <?php
-		if(basename($_SERVER['PHP_SELF'],".php")=='index'); {
+		if(basename($_SERVER['PHP_SELF'],".php")=='index'){
 	?>
   
 		<script src="resources/js/jquery.appear.min.js"></script>
@@ -50,7 +50,9 @@
         <script src="resources/js/jquery.placeholder.js"></script>
         <script src="resources/js/jquery.ajaxchimp.min.js"></script>
         <script src="resources/js/main.js"></script>
-
+	
     <?php
 		}
 	?>
+</body>
+</html>
