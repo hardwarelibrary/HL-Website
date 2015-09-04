@@ -388,23 +388,23 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
 
-							<form id="signup" method="post">
-								<div class="input-group " >
-									
-									<!-- Email input -->
-									<input type="email" class="form-control" name="email"  id="email" placeholder="Email adress...">
-									
-									<!-- Subscribe button -->
+							<form 
+								action="//hardwarelibrary.us11.list-manage.com/subscribe/
+												post?u=a3324d3f72082026c8037d58c&amp;id=9f13d62abd" 
+								method="post" 
+								id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
+								class="validate" 
+								target="_blank" 
+								novalidate>
+
+								<div class="input-group">
+
+		            				<input id="submit" class="form-control" type="text" name="EMAIL" placeholder="Enter your email.">
 									<span class="input-group-btn">
-										<button class="btn btn-md standard-button" id="submit" type="button">Go!</button>
+										<button class="btn btn-md standard-button" type="submit">Go!</button>
 									</span>
-                                     
-
-								</div><!-- /input-group -->
-                                <br />
-
-								<center> <p class="alert alert-danger" id="msg"></p></center>
-							</form>
+								</div> <!-- /input-group -->
+          					</form>
 
 						</div> <!-- end col-md-6 -->
 					</div> <!-- end row -->
