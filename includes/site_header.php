@@ -14,19 +14,19 @@
 	<meta name="keywords" content="bootstrap, mobile app, responsive, CSS3, html5, landing page, android, iOS">
 	<meta name="author" content="Clas-design">
 	<title>Hardware Library</title>
-	
+
 	<!-- Magnific Popup core CSS file -->
 
-	
+
 	<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 	<!-- Magnific Popup core JS file -->
 
 
 	<!-- Fav Icon -->
 	<link rel="shortcut icon" href="resources/images/favicon.ico">
-	
+
 	<!-- Custom Google fonts -->
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet" type="text/css">
 
@@ -55,7 +55,10 @@
 	<link rel="stylesheet" href="resources/css/owl.carousel/owl.transitions.css">
 
 	<!-- Override CSS file -->
-	<link rel="stylesheet" href="resources/css/override.css"> 
+	<link rel="stylesheet" href="resources/css/override.css">
+
+	<!-- Other custom CSS -->
+	<link rel="stylesheet" href="resources/css/custom.css">
 
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -78,13 +81,13 @@
 		}
 ?>
 	<div id="wrapper ">
-		
+
 		<!-- Header -->
 		<header class="header <?php if(basename($_SERVER['PHP_SELF'],".php")!='index'){ echo "affix"; }	?>">
-			
+
             <?php
 				include("site_nav.php");
 			?>
-            
+
 		</header>
 		<!-- end header -->

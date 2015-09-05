@@ -13,10 +13,9 @@
                     
                    		 <div class="col-md-8">
 							<div class="title ">
-								<h2>Have an Event</h2>
 								<div class="event-block">
                                 	<p>We take special care of our event organizers and corporate clients!</p>
-                                    <p>Email us at <strong>saad@hardwarelibrary.com</strong> and we'll set up a special rate just for you!</p>
+                                    <p>Email us at <strong>info@hardwarelibrary.com</strong> and we'll set up a special rate just for you!</p>
                                 </div>
                                
 							</div> <!-- end title -->

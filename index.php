@@ -3,7 +3,7 @@
 ?>
 
 		<!-- Hero Section -->
-		<section class="hero-header"> 
+		<section class="hero-header">
 			<div id="hero-section">
 				<div class="hero-content">
 					<div class="container-fluid">
@@ -42,15 +42,18 @@
 									<h3>We aim to always have the latest and greatest in consumer technology.</h3>
 								</div> <!-- end title -->
 								<p>Whether it's virtual reality gadgets you want to try, laptops you need for a weekend, gaming consoles so you can play the latest game, or hardware you want to build around, this is just a glimpse of what we have in store:</p>
-									<p>- Apple Watch</p>
-									<p>- Oculus Rift</p>
-									<p>- Playstation 4</p>
-									<p>- XBox One</p>
-									<p>- Macbook Air 3</p>
-									<p>- Alienware</p>
-									<p>- iLumi Lightbulb</p>
-									<p>- Arduino Motherboard</p>
-									<p>- AND MORE!</p>
+									<ul>
+										<li>Apple Watch</li>
+										<li>Oculus Rift</li>
+										<li>Playstation 4</li>
+										<li>Xbox One</li>
+										<li>Macbook Air</li>
+										<li>Alienware</li>
+										<li>ilumi lightbulbs</li>
+										<li>Arduino</li>
+										<li>3D Printers</li>
+									</ul>
+									<p>AND MORE!</p>
 								<div class="buttons">
 									<a href="inventory.php" class="btn btn-default btn-lg standard-button">See What Else We Have!</a>
 								</div>
@@ -85,67 +88,67 @@
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/01.jpg"><img src="resources/images/inventory/01.jpg" alt="screenshot1"></a>
+										<a class="zoom" href="resources/images/screenshot/01.jpg"><img src="resources/images/screenshot/01.jpg" alt="screenshot1"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/02.jpg"><img src="resources/images/inventory/02.jpg" alt="screenshot2"></a>
+										<a class="zoom" href="resources/images/screenshot/02.jpg"><img src="resources/images/screenshot/02.jpg" alt="screenshot2"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/03.png"><img src="resources/images/inventory/03.png" alt="screenshot3"></a>
+										<a class="zoom" href="resources/images/screenshot/03.png"><img src="resources/images/screenshot/03.png" alt="screenshot3"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/04.jpg"><img src="resources/images/inventory/04.jpg" alt="screenshot4"></a>
+										<a class="zoom" href="resources/images/screenshot/04.jpg"><img src="resources/images/screenshot/04.jpg" alt="screenshot4"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/05.jpg"><img src="resources/images/inventory/05.jpg" alt="screenshot5"></a>
+										<a class="zoom" href="resources/images/screenshot/05.jpg"><img src="resources/images/screenshot/05.jpg" alt="screenshot5"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/06.jpg"><img src="resources/images/inventory/06.jpg" alt="screenshot6"></a>
+										<a class="zoom" href="resources/images/screenshot/06.jpg"><img src="resources/images/screenshot/06.jpg" alt="screenshot6"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/07.jpg"><img src="resources/images/inventory/07.jpg" alt="screenshot7"></a>
+										<a class="zoom" href="resources/images/screenshot/07.jpg"><img src="resources/images/screenshot/07.jpg" alt="screenshot7"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/08.jpg"><img src="resources/images/inventory/08.jpg" alt="screenshot8"></a>
+										<a class="zoom" href="resources/images/screenshot/08.jpg"><img src="resources/images/screenshot/08.jpg" alt="screenshot8"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/09.jpg"><img src="resources/images/inventory/09.jpg" alt="screenshot"></a>
+										<a class="zoom" href="resources/images/screenshot/09.jpg"><img src="resources/images/screenshot/09.jpg" alt="screenshot"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/10.jpg"><img src="resources/images/inventory/10.jpg" alt="screenshot"></a>
+										<a class="zoom" href="resources/images/screenshot/10.jpg"><img src="resources/images/screenshot/10.jpg" alt="screenshot"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
 								<div class="shot">
 									<div class="screen">
-										<a class="zoom" href="resources/images/inventory/11.jpg"><img src="resources/images/inventory/11.jpg" alt="screenshot"></a>
+										<a class="zoom" href="resources/images/screenshot/11.jpg"><img src="resources/images/screenshot/11.jpg" alt="screenshot"></a>
 									</div> <!-- end screen -->
 								</div> <!-- end shot -->
 
@@ -216,9 +219,9 @@
 										<p>For the first month of availability, only members will get access to rent the latest gadget. This means no wait times and more time for you!</p>
 									</div> <!-- end features-text -->
 								</li>
-                                
+
                                 <li class="animated out" data-animation="fadeInRight" data-delay="0">
-									
+
 									<div class="features-text">
 										<div class="buttons">
 									<a href="members.php" class="btn btn-default btn-lg standard-button">Join us now!</a>
@@ -308,14 +311,14 @@
 
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
-						
-							
+
+
 							<div class="title-section animated out" data-animation="fadeInUp" data-delay="0">
 								<h2>Hosting an Event or Hackathon?</h2>
 								<h3>We love helping make your event the best it can be!</h3>
-								<p>We've provided numerous events such as HackDFW with the hardware they need. Here is what we can promise:</p>
+								<p>We've provided numerous events, such as <a href="http://hackdfw.com" target="_blank">HackDFW</a>, with the hardware they need. Here is what we can promise:</p>
 								<li class=" animated out" data-animation="fadeInRight" data-delay="0">
-								
+
 									<div class="features-icon pull-left">
 										<span class="pe-7s-graph"></span>
 									</div><!-- end features-icon -->
@@ -324,7 +327,7 @@
 										<p>Enjoy the latest and greatest without having to worry about paying for storage after!</p>
 									</div> <!-- end features-text -->
 								</li>
-								
+
 								<li class="animated out" data-animation="fadeInRight" data-delay="0">
 									<div class="features-icon pull-left">
 										<span class="pe-7s-config"></span>
@@ -344,13 +347,13 @@
 										<p>You're company/organization works to help others? We'll we'd like to help you. We work with non-profits to maximize their return and minimize their costs.</p>
 									</div> <!-- end features-text -->
 								</li>
-								
+
                                 <br>
 
 									<div class="">
 										<div class="buttons">
-                                            <a href="events.php" class="btn btn-default btn-lg standard-button">Have an Event</a>
-								</div>
+											<a href="events.php" class="btn btn-default btn-lg standard-button">Have an Event</a>
+										</div>
 									</div> <!-- end features-text -->
 							</div> <!-- end title -->
 						</div> <!-- end col-md-6 -->
@@ -388,13 +391,13 @@
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3">
 
-							<form 
+							<form
 								action="//hardwarelibrary.us11.list-manage.com/subscribe/
-												post?u=a3324d3f72082026c8037d58c&amp;id=9f13d62abd" 
-								method="post" 
-								id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" 
-								class="validate" 
-								target="_blank" 
+												post?u=a3324d3f72082026c8037d58c&amp;id=9f13d62abd"
+								method="post"
+								id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+								class="validate"
+								target="_blank"
 								novalidate>
 
 								<div class="input-group">

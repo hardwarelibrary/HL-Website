@@ -888,9 +888,10 @@ ul.social-icons-list li a {
 	margin:8% 0 5%;	
 }
 .event-block{
-	background-color: #E4DD4C;
+	/*background-color: #E4DD4C;*/
+  background-color: #ffffff;
 	padding: 7% 15%;
-	color:#fff;
+	color:#000;
 	font-size:24px;
 	text-align:center;
 	border:3px solid #41719C;
