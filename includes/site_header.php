@@ -5,14 +5,15 @@
 <html lang="en">
 <head>
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
 	<!-- Basic page information -->
-	<meta name="description" content="Krait - Responsive Landing Page">
-	<meta name="keywords" content="bootstrap, mobile app, responsive, CSS3, html5, landing page, android, iOS">
-	<meta name="author" content="Clas-design">
+	<meta name="description" content="Hardware Library provides cutting edge technology right at your finger tips. 
+	We provide advanced hardware for consumers, corporations/nonprofits, and events. " />
+	<meta name="keywords" content="Hardware, hackathon, library, technology, technology rental, developer hardware, developer" />
+	<meta name="author" content="Hardware Library" />
 	<title>Hardware Library</title>
 
 	<!-- Magnific Popup core CSS file -->
